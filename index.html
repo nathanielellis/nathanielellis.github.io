@@ -1,40 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1 {
+            color: #ff0000;
+            font-size: 30px;
+        }
+        .title {
+            text-align:center;
+            color: rgb(44, 44, 44);
+            font-size: 30px;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
-    <p>Hi! I'm Nathaniel Ellis.</p>
-<body>
-    <p> I'm a Cartographer. I'm  interested in all things maps, but I'm especially interested in abstract ways to reprsent natural or cultural phenomna. </p>
-   
-</head>
-<p>Heres some of my work:</p>
-    <p> Here is some of Americas largest rivers represented as trees. I used USGS discharge data to determine the width of the 
-        "truck", "branches", "branchlets", "twigs" etc. I used cities with more than a quarter of a million people as the 
-        leaves and lakes as the knots on the tree. That being said, I love the flexibility and the possibilities that someone 
-        could take the idea of tree representation. One could use leaves and knots to represent dams, bridges or any natural 
-        features or points of interests. Much of the choice will boil down to the individual river that is being represented. 
-        I would likely of made different design choices if I drew a "knotty" Saint Lawerence instead of the "thick" Columbia, 
-        "massive" Mississippi and "skinny" Colorado. It won 1st place in the Ptetnick Award in 2019.  </p>
-    <p> The peice below was designed on telling the story of
-        the Erie Canal in the twenty first century. It drew inspiration from story boards that were able to tell a
-        succinct compelling story. It followed the traditional path of the Erie up the Hudson and across to
-        Lake Erie. In choosing this set up, I wanted the story to flow as it did for people who originally used the
-        canal to migrate. That being said, (once the history of the Erie was told), I attempted to transition into
-        telling what the future could hold from Buffalo to Albany.  </p>
-        
-        Here I utilize Mapbox studies to do a take on an interactive “slippy” map inspired by forest fire
-        prevention ‘propaganda” of the 70s. It utilized psychedelic colors and wonky fonts so that the user of
-        the slippy map could see our world through the style of Smokey the Bear posters. I attempted to
-        utilize the colors of one poster in particular (link to image) and made attempts to recreate the natural
-        environment that we see in the forest images on the scale of the world. 
-        <p> Below is a Choropleth map of commute time for New York City. I used census data and overlapped the Subway system. 
-            I loved some of the trends that flew out of the census data (look at the Rockaways!) </p> 
 
-        <p> Attached is my resume. Most of my recent work experience is as a wildland firefighter. I've had the pleasure of fighting fire
-          in California, Montana, Nevada, Oregon, Washington and Wyoming on handcrews and helitacks. </p> 
-    <p>
+<body>
+    <p>Hi! I'm Nathaniel Ellis.</p>
+    <p> I'm a Cartographer. I'm interested in all things maps, but I'm especially interested in abstract ways to
+        reprsent natural or cultural phenomna.</p> <a href="nellis5@wisc.edu">Email Me</a>
+    <div>
+        <!-- Tag for image -->
+        <h3 class="title">River Trees of the United States</h3>
+        <img src="./files/Screenshot 2020-11-18 201138.png" height="600px" class="center">
+        <p> (Pictured above is "Colorado Tree")
+            Here is some of Americas largest rivers represented as trees. I used USGS discharge data to determine the width
+            of the "truck", "branches", "branchlets", "twigs" etc. I used cities with more than a quarter of a million people as
+            the leaves and lakes as the knots on the tree. That being said, I love the flexibility and the possibilities that
+            someone could take the idea of tree representation. One could use leaves and knots to represent dams, bridges or any
+            natural
+            features or points of interests. Much of the choice will boil down to the individual river that is being
+            represented.
+            I would likely of made different design choices if I drew a "knotty" Saint Lawerence instead of the "thick"
+            Columbia,
+            "massive" Mississippi and "skinny" Colorado. It won 1st place in the Petchenik Award in 2019. </p>
+        <!-- Tag that links to file -->
+        <a href="./files/trees_rearranged [Recovered].pdf">Download Tree Map</a>
+    </div>
+    <div>
+        <h3 class="title"> Erie Canal Storyboard</h3>
+        <img src="./files/Screenshot 2020-11-18 190520.png" height="400px" class="center">>
+        <p>
+            The peice above was designed on telling the story of
+            the Erie Canal in the twenty first century. It drew inspiration from story boards that were able to tell a
+            succinct compelling story. It followed the traditional path of the Erie up the Hudson and across to
+            Lake Erie. In choosing this set up, I wanted the story to flow as it did for people who originally used the
+            canal to migrate. That being said, (once the history of the Erie was told), I attempted to transition into
+            telling what the future could hold from Buffalo to Albany.
+        </p>
+        <a href="https://arcg.is/X8Tz4">Go to Storyboard</a>
+    </div>
+    <div>
+        <h3 class="title"> Smokey the Bear Slippy Map</h3>
+        <img src="./files/Screenshot 2020-11-18 190736.png" height="400px" class="center">>
+        <p> Here I utilize Mapbox studies to do a take on an interactive “slippy” map inspired by forest fire
+            prevention ‘propaganda” of the 70s. It utilized psychedelic colors and wonky fonts so that the user of
+            the slippy map could see our world through the style of Smokey the Bear posters. I attempted to
+            utilize the colors of one poster in particular (link to image) and made attempts to recreate the natural
+            environment that we see in the forest images on the scale of the world. Below is a USFS poster that the map drew inspiration from.</p>
+            <a href="https://api.mapbox.com/styles/v1/nellis52/ckg6qak2d01sz19ntki5ey2eu.html?fresh=true&title=copy&access_token=pk.eyJ1IjoibmVsbGlzNTIiLCJhIjoiY2tnNW5naHJtMHdpczJyczMxaG9oZzcwciJ9.-sFEQpkFntkjzAKQaIX5Ow">Go to Slippy Map</a>
+            <img src="./files/DZelDyUXUAAFBhC.png" height="400px" class="center">           
+    </div>
+    <div>
+        <h3 class="title">Commute Time of the Bronx, Brooklyn, Manhattan & Queens</h3>
+        <img src="files/greyplease.jpg" height="800px" class="center">
+        <p> Above is a Choropleth map of commute time for New York City. I used Census data and overlapped the Subway
+            system.
+            I loved some of the trends that flew out of the census data (look at the Rockaways!) </p>
+    
+        <a href="files/greyplease.jpg">Download Commute Map</a>
+    </div>
+    <div>
+        <h3 class="title"> About Me </h3>
+        <p> I've lived in New York, Oregon, Wisconsin and Wyoming. I've worked fires in California, Montana, Nevada, Oregon, Washington and Wyoming. I can use Python, Arc Suite, QGIS, Office and a little bit of Spanish.
+            </p>
+        <a href="files/Nathaniel Ellis Resume (1).doc">Download Resume</a>
+    </div>
 </body>
+
 </html>
